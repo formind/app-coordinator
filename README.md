@@ -1,0 +1,4 @@
+app-coordinator
+===============
+
+It is able to build then application by coordinators. Each coordinator is made up of one or more steps, these are the editors. The steps can be led by the forward-back buttons, menu or the change of stepdata. Each step has the same in-out parameter descriptor, these run to the server at stepchange and are read by the coordinator from the actual stepeditor and after getting response forward these for the object of the appropriate step. At the end of each step a checking can be set (for instance the data of the input is correct or not) and step further. It can be occured that an independent step is the next (for instance int he case of a login window when the user is unregistered, but it is neccesary to show the registration formpage). The handle of the data on the server side is similar to that of the client side by using coordinator objects, its inner functions can be  setData, getData, stepName etc.
