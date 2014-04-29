@@ -559,7 +559,7 @@ YUI.add('coordinator-base', function (Y, NAME) {
 			return step_ed;
 		}
 
-		}, {	NAME	 	: {value : "CoordinatorBase"},
+		}, {	NAME	 	: "CoordinatorBase",
 				ATTRS: {
 							worknode	: {value : ""},
 							app_name	: {value : ""}
