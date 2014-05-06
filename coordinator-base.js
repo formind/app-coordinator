@@ -567,4 +567,4 @@ YUI.add('coordinator-base', function (Y, NAME) {
 	});
 
 }, '1.0.1', { "requires": ["base-build", "handlebars", "view", "extio", "editor-description", "json-parse-uid", 
-							"json-stringify", "editor-base", "obj-params" ] });
+							"json-stringify", "coordeditor-base", "obj-params" ] });
